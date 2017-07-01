@@ -6,5 +6,9 @@ target 'Social' do
   use_frameworks!
 
   # Pods for Social
-  pod 'Firebase/Core'
+  pod 'Firebase'
+  pod 'Firebase/Auth'
+  pod 'FacebookCore'
+  pod 'FacebookLogin'
+  pod 'FacebookShare'
 end
